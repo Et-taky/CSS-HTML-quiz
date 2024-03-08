@@ -1,0 +1,136 @@
+body{
+    background: #3f2b96;
+    padding:20px;
+}
+header h1{
+    color: #04AA6D;
+    text-decoration: underline;
+    text-align: center;
+}
+.questions{
+    background: rgba(217, 214, 228, 0.12);
+    border-radius: 10px;
+    padding: 5px 20px 50px;
+    width: 95%;
+    max-width: 488px;
+    padding: 20px;
+    margin: auto;
+}
+
+.option0,.option1,.option2,.option3,.option4,.option5,.option6,.option7,.option8,.option9{
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 6px;
+    position: relative;
+    color: #000;
+}
+.question_part{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#next{
+    width: 90px;
+    height: 40px;
+    margin-left: 22%;
+    background-color: #04AA6D;
+}
+#previous{
+    width: 90px;
+    height: 40px;
+    margin-left: 21%;
+    background: rgb(209, 58, 58); 
+}
+#previous,#next{
+    border-radius: 5px;    
+    font-size: 20px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#next:hover{
+    box-shadow: 1px 1px 20px #3f2b96,1px 1px 30px #7bc97b;
+}
+#previous:hover{
+    box-shadow: 1px 1px 20px #3f2b96,2px 2px 30px rgb(209, 58, 58);
+}
+#submit{
+    text-align: center; 
+    margin: 40px auto;
+    display: none;
+}
+#submit1,#checkanswer{
+    width: 217px;
+    height: 50px;
+    background-color: #04AA6D;
+    font-size:20px ;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.inputs{
+    background-color:#1e1e1e;
+    color: #fff;
+    margin: 10px;
+    
+}
+.inputs div{
+    padding:15px
+}
+#score{
+    text-align: center;
+    color: #00FF00;
+}
+#score h1{
+    margin: 0px;
+}
+#score1{
+    margin: 0px;
+    
+}
+.inputs h3{
+    background:#586fc4;
+    text-align: center;
+    font-size: 24px;
+    color: #88ee88;
+    display: none;
+}
+.span{
+    color: #84f084;
+}
+.red{
+    color: red;
+}
+.image{
+    height: 400px;
+    width: 500px;
+    margin: 5px auto;
+    display:none;
+}
+#tryBtn{
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 10px;
+    font-size:20px ;
+    color: #333;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#tryBtn:hover{
+    opacity: 0.9;
+}
+#note{
+    color: rgb(191, 180, 180);
+    text-align: center;
+    font-size: 20px;
+}
+#note b{
+    color: rgb(212, 55, 55);
+}
